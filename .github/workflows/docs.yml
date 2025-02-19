@@ -1,18 +1,11 @@
 name: docs_pages_workflow
 
 on:
-  workflow_dispatch
-
-#on:
-#  push:
-#    branches: [main]
+  workflow_dispatch  # Allows manual triggering
 
 jobs:
   build_docs_job:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.8", "3.9", "3.10", "3.11"]
 
     steps:
       - name: Checkout Repository
@@ -21,23 +14,26 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: "3.8"  # Minimum required version
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install sphinx sphinx-rtd-theme sphinx-autoapi
 
+      - name: Ensure docs directory exists
+        run: |
+          mkdir -p docs/source  # Ensure the directory exists
+
       - name: Generate .rst files
         run: |
-          sphinx-apidoc -o docs/source/ your_module/  # Replace 'your_module' with your code directory
-
+          sphinx-apidoc -o docs/source/ automation_libs/
       - name: Build Sphinx Docs
         run: |
           make -C docs clean
           make -C docs html
 
-      - name: Prepare and Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
         run: |
           cd docs/build/html
           touch .nojekyll
@@ -46,4 +42,4 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -m "Deploy updated docs"
-          git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:gh-pages
+          git push --force origin HEAD:gh-pages
