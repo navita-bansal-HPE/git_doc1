@@ -28,6 +28,14 @@ automation\_libs.automation\_libs\_1.test.test\_2 module
    :undoc-members:
    :show-inheritance:
 
+automation\_libs.automation\_libs\_1.test.test\_3 module
+--------------------------------------------------------
+
+.. automodule:: automation_libs.automation_libs_1.test.test_3
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 Module contents
 ---------------
 
