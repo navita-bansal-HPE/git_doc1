@@ -25,22 +25,19 @@ jobs:
         run: |
           sphinx-apidoc -o docs/source/ automation_libs/
 
+      - name: Commit updated .rst files
+        run: |
+          git add docs/source/
+          git commit -m "Update .rst files" || echo "No changes to commit"
+          git push origin main || echo "No changes to push"
+
       - name: Build Sphinx Docs
         run: |
           make -C docs clean
           make -C docs html
 
       - name: Deploy to GitHub Pages
-        run: |
-          cd docs/build/html
-          touch .nojekyll
-          git init
-          git add -A
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m "Deploy updated docs"
-          
-          # Set remote repository
-          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          
-          git push --force origin HEAD:gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/build/html
