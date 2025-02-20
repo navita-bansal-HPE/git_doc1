@@ -1,6 +1,14 @@
 automation\_libs.automation\_libs\_1 package
 ============================================
 
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   automation_libs.automation_libs_1.test
+
 Submodules
 ----------
 
