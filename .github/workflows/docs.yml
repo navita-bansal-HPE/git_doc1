@@ -23,7 +23,7 @@ jobs:
 
       - name: Generate .rst files
         run: |
-          sphinx-apidoc -o docs/source/ your_module/  # Replace with your actual module
+          sphinx-apidoc -o docs/source/ automation_libs/
 
       - name: Build Sphinx Docs
         run: |
