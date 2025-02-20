@@ -1,10 +1,7 @@
 name: docs_pages_workflow
 
 on:
-  workflow_dispatch  # Allows manual triggering of the workflow
-
-permissions:
-  contents: write  # 🔥 Gives GitHub Actions write access
+  workflow_dispatch
 
 jobs:
   build_docs_job:
