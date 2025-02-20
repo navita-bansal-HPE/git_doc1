@@ -7,7 +7,7 @@ def calculate_simple_interest(principal: float, rate: float, time: float) -> flo
     :param principal: The principal amount (Initial investment or loan amount)
     :param rate: The annual interest rate (in percentage)
     :param time: The time period (in years)
-    :return: The simple interest calculated using the formula (P * R * T) / 100
+    :return: The simple interest calculated.
     """
     return (principal * rate * time) / 100
 
