@@ -9,7 +9,7 @@ class Printer:
         """
         Initializes the Printer class with a message.
 
-        :param message: str, the message to be printed
+        :param message: str, the message to be printed.
         """
         self.message = message
 
@@ -22,5 +22,5 @@ class Printer:
 
 # Example usage
 if __name__ == "__main__":
-    printer = Printer("Hello, this is a Python class with docstrings!")
+    printer = Printer("Hello, this is a Python class with docstrings!!!")
     printer.display()
