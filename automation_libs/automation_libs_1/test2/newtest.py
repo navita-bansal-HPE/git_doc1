@@ -19,14 +19,10 @@ class Calculator:
         """
         return self.a + self.b
 
-    def multiply(self):
-        """
-        Returns the product of two numbers.
-        """
-        return self.a * self.b
+
 
 # Example usage
 if __name__ == "__main__":
     calc = Calculator(5, 3)
     print(f"Addition: {calc.add()}")
-    print(f"Multiplication: {calc.multiply()}")
+   # print(f"Multiplication: {calc.multiply()}")
