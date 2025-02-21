@@ -7,8 +7,8 @@ class Calculator:
         """
         Initializes the calculator with two numbers.
 
-        :param a: First number
-        :param b: Second number
+        :param a: First number.
+        :param b: Second number.
         """
         self.a = a
         self.b = b
