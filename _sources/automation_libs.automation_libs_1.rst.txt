@@ -36,6 +36,14 @@ automation\_libs.automation\_libs\_1.example3 module
    :undoc-members:
    :show-inheritance:
 
+automation\_libs.automation\_libs\_1.example4 module
+----------------------------------------------------
+
+.. automodule:: automation_libs.automation_libs_1.example4
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 Module contents
 ---------------
 
