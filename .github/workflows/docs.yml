@@ -28,7 +28,7 @@ jobs:
       - name: Generate .rst files
         run: |
           
-          find docs/source/ -type f -name "*.rst" -delete
+          find docs/source/ -type f -name "*.rst" ! -name "index.rst" -delete      
           
           sphinx-apidoc -f -o docs/source/ automation_libs/automation_libs_1/example
           sphinx-apidoc -f -o docs/source/ automation_libs/automation_libs_1/test
