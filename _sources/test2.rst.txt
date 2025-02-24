@@ -20,6 +20,14 @@ test2.newtest1 module
    :undoc-members:
    :show-inheritance:
 
+test2.newtest2 module
+---------------------
+
+.. automodule:: test2.newtest2
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 Module contents
 ---------------
 
