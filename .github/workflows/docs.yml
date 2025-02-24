@@ -27,10 +27,9 @@ jobs:
 
       - name: Generate .rst files
         run: |
-          sphinx-apidoc -o docs/source/automation_libs_1/example automation_libs/automation_libs_1/example
-          sphinx-apidoc -o docs/source/automation_libs_1/test automation_libs/automation_libs_1/test
-          sphinx-apidoc -o docs/source/automation_libs_1/test2 automation_libs/automation_libs_1/test2
-      
+          sphinx-apidoc -f -o docs/source/ automation_libs/automation_libs_1/example
+          sphinx-apidoc -f -o docs/source/ automation_libs/automation_libs_1/test
+          sphinx-apidoc -f -o docs/source/ automation_libs/automation_libs_1/test2
 
       - name: Commit updated .rst files
         run: |
