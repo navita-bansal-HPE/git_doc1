@@ -1,0 +1,53 @@
+test package
+============
+
+Submodules
+----------
+
+test.example5 module
+--------------------
+
+.. automodule:: test.example5
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+test.greetings module
+---------------------
+
+.. automodule:: test.greetings
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+test.test\_1 module
+-------------------
+
+.. automodule:: test.test_1
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+test.test\_2 module
+-------------------
+
+.. automodule:: test.test_2
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+test.test\_3 module
+-------------------
+
+.. automodule:: test.test_3
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: test
+   :members:
+   :undoc-members:
+   :show-inheritance:

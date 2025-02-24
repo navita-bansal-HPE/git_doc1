@@ -22,5 +22,6 @@ Key Benefits:
    :caption: Content
    :titlesonly:
 
-   automation_libs
-   automation_libs_1
+   automation_libs_1/example/index
+   automation_libs_1/test/index
+   automation_libs_1/test2/index
