@@ -27,6 +27,9 @@ jobs:
 
       - name: Generate .rst files
         run: |
+          
+          rm -rf docs/source/* 
+          
           sphinx-apidoc -f -o docs/source/ automation_libs/automation_libs_1/example
           sphinx-apidoc -f -o docs/source/ automation_libs/automation_libs_1/test
           sphinx-apidoc -f -o docs/source/ automation_libs/automation_libs_1/test2
