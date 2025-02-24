@@ -12,6 +12,14 @@ test2.newtest module
    :undoc-members:
    :show-inheritance:
 
+test2.newtest1 module
+---------------------
+
+.. automodule:: test2.newtest1
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 Module contents
 ---------------
 
