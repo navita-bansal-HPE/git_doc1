@@ -12,6 +12,7 @@ import sphinx_rtd_theme
 
 # -- Path setup --------------------------------------------------------------
 sys.path.insert(0, os.path.abspath('../../'))
+sys.path.insert(0, os.path.abspath('../../automation_libs'))
 
 project = 'jkjdk'
 copyright = '2025, navi'
