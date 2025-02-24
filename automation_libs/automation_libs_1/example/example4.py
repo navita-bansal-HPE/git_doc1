@@ -23,7 +23,7 @@ class Rectangle:
 
     def display(self):
         """
-        Prints the details of the rectangle including its length, width, and area.
+        Prints the details of the rectangle including its length, width and area.
         """
         print(f"Rectangle with length {self.length} and width {self.width} has an area of {self.area()}.")
 
