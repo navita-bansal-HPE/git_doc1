@@ -19,5 +19,5 @@ class Greeting:
 
 # Example usage
 if __name__ == "__main__":
-    greeting = Greeting("hello there")
+    greeting = Greeting("hello there, How r u")
     greeting.say_hello()
