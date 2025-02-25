@@ -25,7 +25,3 @@ Key Benefits:
 
    automation_libs
    automation_libs.automation_libs_1
-
-   automation_libs_1/example/modules
-   automation_libs_1/test/modules
-   automation_libs_1/test2/modules
