@@ -44,6 +44,10 @@ jobs:
           make -C docs clean
           make -C docs html
 
+      - name: Debug: List built files
+        run: ls -l docs/build/html
+
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
