@@ -26,9 +26,7 @@ jobs:
           pip install sphinx sphinx-rtd-theme sphinx-autoapi
 
       - name: Generate .rst files
-        run: |
-          
-          find docs/source/ -type f -name "*.rst" ! -name "index.rst" -delete      
+        run: |    
           
           sphinx-apidoc -f -o docs/source/ automation_libs/automation_libs_1/example
           sphinx-apidoc -f -o docs/source/ automation_libs/automation_libs_1/test
