@@ -1,0 +1,7 @@
+automation\_libs.automation\_libs\_1.example.example module
+===========================================================
+
+.. automodule:: automation_libs.automation_libs_1.example.example
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>automation_libs.automation_libs_1.example.example1 &mdash; jkjdk  documentation</title>
+  <title>automation_libs.automation_libs_1.test2.newtest3 &mdash; jkjdk  documentation</title>
       <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../../../../_static/css/theme.css?v=e59714d7" />
 
@@ -59,7 +59,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../../../index.html">Module code</a></li>
-      <li class="breadcrumb-item active">automation_libs.automation_libs_1.example.example1</li>
+      <li class="breadcrumb-item active">automation_libs.automation_libs_1.test2.newtest3</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -68,32 +68,36 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <h1>Source code for automation_libs.automation_libs_1.example.example1</h1><div class="highlight"><pre>
-<div class="viewcode-block" id="add_two_numbers">
-<a class="viewcode-back" href="../../../../automation_libs.automation_libs_1.example.example1.html#automation_libs.automation_libs_1.example.example1.add_two_numbers">[docs]</a>
-<span></span><span class="k">def</span><span class="w"> </span><span class="nf">add_two_numbers</span><span class="p">(</span><span class="n">num1</span><span class="p">,</span> <span class="n">num2</span><span class="p">):</span>
+  <h1>Source code for automation_libs.automation_libs_1.test2.newtest3</h1><div class="highlight"><pre>
+<div class="viewcode-block" id="Greeting">
+<a class="viewcode-back" href="../../../../automation_libs.automation_libs_1.test2.newtest3.html#automation_libs.automation_libs_1.test2.newtest3.Greeting">[docs]</a>
+<span></span><span class="k">class</span><span class="w"> </span><span class="nc">Greeting</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Add two numbers and return their sum.</span>
-
-<span class="sd">    Args:</span>
-<span class="sd">        num1 (int or float): The first number.</span>
-<span class="sd">        num2 (int or float): The second number.</span>
-
-<span class="sd">    Returns:</span>
-<span class="sd">        int or float: The sum of num1 and num2.</span>
+<span class="sd">    A class to represent a greeting message.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="c1"># Adding two numbers</span>
-    <span class="n">total</span> <span class="o">=</span> <span class="n">num1</span> <span class="o">+</span> <span class="n">num2</span>
 
-    <span class="c1"># Returning the result</span>
-    <span class="k">return</span> <span class="n">total</span></div>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Initialize the Greeting class with a name.</span>
+
+<span class="sd">        :param name: The name of the person to greet.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+
+<div class="viewcode-block" id="Greeting.say_hello">
+<a class="viewcode-back" href="../../../../automation_libs.automation_libs_1.test2.newtest3.html#automation_libs.automation_libs_1.test2.newtest3.Greeting.say_hello">[docs]</a>
+    <span class="k">def</span><span class="w"> </span><span class="nf">say_hello</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Prints a greeting message.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Hello, </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">! Welcome to the world of Python.&quot;</span><span class="p">)</span></div>
+</div>
 
 
 <span class="c1"># Example usage</span>
-<span class="n">num1</span> <span class="o">=</span> <span class="mi">15</span>
-<span class="n">num2</span> <span class="o">=</span> <span class="mi">12</span>
-<span class="n">result</span> <span class="o">=</span> <span class="n">add_two_numbers</span><span class="p">(</span><span class="n">num1</span><span class="p">,</span> <span class="n">num2</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Sum of </span><span class="si">{</span><span class="n">num1</span><span class="si">}</span><span class="s2"> and </span><span class="si">{</span><span class="n">num2</span><span class="si">}</span><span class="s2"> is </span><span class="si">{</span><span class="n">result</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">greeting</span> <span class="o">=</span> <span class="n">Greeting</span><span class="p">(</span><span class="s2">&quot;hello there, How r u&quot;</span><span class="p">)</span>
+    <span class="n">greeting</span><span class="o">.</span><span class="n">say_hello</span><span class="p">()</span>
 </pre></div>
 
            </div>

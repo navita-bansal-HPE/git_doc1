@@ -1,0 +1,7 @@
+automation\_libs.automation\_libs\_1.test2.newtest3 module
+==========================================================
+
+.. automodule:: automation_libs.automation_libs_1.test2.newtest3
+   :members:
+   :undoc-members:
+   :show-inheritance:

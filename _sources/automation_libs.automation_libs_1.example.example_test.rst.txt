@@ -4,13 +4,10 @@ automation\_libs.automation\_libs\_1.example.example\_test package
 Submodules
 ----------
 
-automation\_libs.automation\_libs\_1.example.example\_test.new1 module
-----------------------------------------------------------------------
+.. toctree::
+   :maxdepth: 4
 
-.. automodule:: automation_libs.automation_libs_1.example.example_test.new1
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   automation_libs.automation_libs_1.example.example_test.new1
 
 Module contents
 ---------------
