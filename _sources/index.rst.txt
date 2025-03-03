@@ -23,6 +23,6 @@ Key Benefits:
    :titlesonly:
 
 
-   automation_libs.automation_libs_1.example
-   automation_libs.automation_libs_1.test
-   automation_libs.automation_libs_1.test2
+   Example Package <automation_libs.automation_libs_1.example>
+   Test Package <automation_libs.automation_libs_1.test>
+   Test2 Package <automation_libs.automation_libs_1.test2>
