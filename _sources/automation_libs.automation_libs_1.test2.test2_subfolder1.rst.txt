@@ -1,6 +1,14 @@
 automation\_libs.automation\_libs\_1.test2.test2\_subfolder1 package
 ====================================================================
 
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   automation_libs.automation_libs_1.test2.test2_subfolder1.sb11
+
 Module contents
 ---------------
 
