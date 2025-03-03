@@ -1,5 +1,5 @@
-automation\_libs.automation\_libs\_1.test2 package
-==================================================
+test2 package
+=============
 
 Submodules
 ----------

@@ -1,5 +1,5 @@
-automation\_libs.automation\_libs\_1.example package
-====================================================
+example package
+===============
 
 Submodules
 ----------
