@@ -1,0 +1,19 @@
+automation\_libs.automation\_libs\_1.test2.test2\_subfolder package
+===================================================================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   automation_libs.automation_libs_1.test2.test2_subfolder.sb1
+   automation_libs.automation_libs_1.test2.test2_subfolder.sb2
+
+Module contents
+---------------
+
+.. automodule:: automation_libs.automation_libs_1.test2.test2_subfolder
+   :members:
+   :undoc-members:
+   :show-inheritance:
