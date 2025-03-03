@@ -13,7 +13,7 @@ class Greeting:
 
     def say_hello(self):
         """
-        Prints a greeting message.
+        Prints a greeting message like.
         """
         print(f"Hello, {self.name}! Welcome to the world of Python.")
 
