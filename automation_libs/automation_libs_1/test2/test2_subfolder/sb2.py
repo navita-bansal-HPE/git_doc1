@@ -1,23 +1,30 @@
-class Greeting:
+class TemperatureConverter:
     """
-    A class to represent a greeting message.
+    A class to convert temperature from Fahrenheit to Celsius.
     """
 
-    def __init__(self, name):
+    def __init__(self, fahrenheit):
         """
-        Initialize the Greeting class with a name.
+        Initialize with temperature in Fahrenheit.
 
-        :param name: The name of the person to greet.
+        :param fahrenheit: Temperature value in Fahrenheit.
         """
-        self.name = name
+        self.fahrenheit = fahrenheit
 
-    def say_hello(self):
+    def to_celsius(self):
         """
-        Prints a greeting message like.
-        """
-        print(f"Hello, {self.name}! Welcome to the world of Python.")
+        Convert the Fahrenheit temperature to Celsius.
 
-# Example usage
+        :return: Temperature in Celsius.
+        """
+        return (self.fahrenheit - 32) * 5 / 9
+
+
 if __name__ == "__main__":
-    greeting = Greeting("hello there, Everything ok?")
-    greeting.say_hello()
+    try:
+        fahrenheit_value = float(input("Enter temperature in Fahrenheit: "))
+        converter = TemperatureConverter(fahrenheit_value)
+        celsius_value = converter.to_celsius()
+        print(f"{fahrenheit_value}°F is equal to {celsius_value:.2f}°C")
+    except ValueError:
+        print("Please enter a valid number.")
