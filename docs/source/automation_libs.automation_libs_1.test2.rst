@@ -1,6 +1,14 @@
 test2 package
 =============
 
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   automation_libs.automation_libs_1.test2.test2_subfolder
+
 Submodules
 ----------
 
@@ -16,6 +24,22 @@ automation\_libs.automation\_libs\_1.test2.newtest1 module
 ----------------------------------------------------------
 
 .. automodule:: automation_libs.automation_libs_1.test2.newtest1
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+automation\_libs.automation\_libs\_1.test2.newtest2 module
+----------------------------------------------------------
+
+.. automodule:: automation_libs.automation_libs_1.test2.newtest2
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+automation\_libs.automation\_libs\_1.test2.newtest3 module
+----------------------------------------------------------
+
+.. automodule:: automation_libs.automation_libs_1.test2.newtest3
    :members:
    :undoc-members:
    :show-inheritance:

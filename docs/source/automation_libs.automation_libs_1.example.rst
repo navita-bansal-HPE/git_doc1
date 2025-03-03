@@ -1,6 +1,14 @@
 example package
 ===============
 
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   automation_libs.automation_libs_1.example.example_test
+
 Submodules
 ----------
 
