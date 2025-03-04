@@ -8,6 +8,7 @@ Submodules
    :maxdepth: 4
 
    automation_libs.automation_libs_1.test2.test2_subfolder1.sb11
+   automation_libs.automation_libs_1.test2.test2_subfolder1.sb12
 
 Module contents
 ---------------

@@ -1,0 +1,7 @@
+automation\_libs.automation\_libs\_1.test2.test2\_subfolder1.sb12 module
+========================================================================
+
+.. automodule:: automation_libs.automation_libs_1.test2.test2_subfolder1.sb12
+   :members:
+   :undoc-members:
+   :show-inheritance:
